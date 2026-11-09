@@ -1,0 +1,1 @@
+Chaotic Trivia allows people to create a lobby and test their trivia knowledge. Each round requires a certain amount of correct answers to procede to the next round. Eliminiated people get disruptors that can affect one active player or the entire active group. 
