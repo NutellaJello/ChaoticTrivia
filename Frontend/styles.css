@@ -1,0 +1,82 @@
+/*
+    font size is directly used by rem. 1rem = 16px. 2rem = 32px,etc.
+*/
+
+html{
+    font-size: 16px;
+}
+
+h1{
+    text-align: center;
+}
+
+.trivia-question {
+    font-size: 2rem;
+    border: 2px solid black;
+    max-width: 70rem; 
+    min-height: 24rem; 
+    padding: 1rem;
+    margin-inline: auto;
+    /*
+    max-width limits how wide the box gets, 
+    margin-inline: auto centers the box horizontally. 
+    min-height makes it tall while letting it grow if needed. 
+    display: grid and place-items: center center the question inside the box, 
+    and text-align: center centers each line if the question wraps.
+    */
+    
+    display: grid; 
+    place-items: center;
+    text-align: center;
+
+}
+
+.trivia-question p {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.answer-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.players {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+}
+
+.avatar-red {
+    background-color: red;
+}
+
+.avatar-purple {
+    background-color: mediumpurple;
+}
+
+.avatar-green {
+    background-color: green;
+}
+
+.avatar-yellow {
+    background-color: yellow;
+}
